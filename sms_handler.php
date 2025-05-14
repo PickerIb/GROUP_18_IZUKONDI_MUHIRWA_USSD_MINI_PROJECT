@@ -15,6 +15,7 @@ $text = $_POST['text'];
 $date = $_POST['date'];
 $id = $_POST['id'];
 
+
 // Log the incoming SMS
 $db = Database::getInstance();
 $from = $db->escape($from);
