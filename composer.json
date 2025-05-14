@@ -1,0 +1,14 @@
+{
+    "name": "farmer/ussd-system",
+    "description": "Farmer USSD System with Africa's Talking Integration",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "africastalking/africastalking": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Farmer\\UssdSystem\\": "src/"
+        }
+    }
+} 
