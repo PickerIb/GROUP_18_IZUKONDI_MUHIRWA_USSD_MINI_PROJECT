@@ -1,5 +1,3 @@
-# GROUP_18_IZUKONDI_MUHIRWA_USSD_MINI_PROJECT
-The Farmer USSD System *384*1742# is a quick and easy mobile service that helps farmers access agricultural tips, market prices, weather updates, and order farm inputs without internet. It works on any phone, and farmers receive SMS confirmations after use.
 # Farmer USSD System
 
 A USSD and SMS application built with PHP and Africa's Talking API that allows users to interact with the system through USSD menus and SMS commands.
@@ -32,7 +30,7 @@ A USSD and SMS application built with PHP and Africa's Talking API that allows u
 1. Clone this repository to your XAMPP htdocs directory:
    ```
    cd /path/to/xampp/htdocs
-   git clone [repository-url]
+   git clone GROUP_18_IZUKONDI_MUHIRWA_USSD_MINI_PROJECT
    ```
 
 2. Create the database and tables:
@@ -42,21 +40,10 @@ A USSD and SMS application built with PHP and Africa's Talking API that allows u
 3. Configure the application:
    - Open `config.php`
    - Update the Africa's Talking credentials:
-     - `AT_API_KEY`: Your Africa's Talking API Key
-     - `AT_USERNAME`: Your Africa's Talking Username
-     - `AT_SENDER_ID`: Your SMS Sender ID
+     - `AT_API_KEY`:atsk_871d84ee73680edd4daf84c0034d5ce8aa061d65b75127996006135811097ff507aeb6c9
+     - `AT_USERNAME`:sandbox
+     - `AT_SENDER_ID`:PMoney
    - Update database credentials if needed
-
-4. Configure Africa's Talking:
-   - Log in to your Africa's Talking account
-   - Set up a USSD service with the following callback URL:
-     ```
-     http://your-domain.com/ussd_handler.php
-     ```
-   - Set up an SMS callback URL:
-     ```
-     http://your-domain.com/sms_handler.php
-     ```
 
 ## Usage
 
