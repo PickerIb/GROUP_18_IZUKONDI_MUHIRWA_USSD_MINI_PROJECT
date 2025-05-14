@@ -4,6 +4,7 @@ define('AT_API_KEY', 'atsk_871d84ee73680edd4daf84c0034d5ce8aa061d65b751279960061
 define('AT_USERNAME', 'sandbox'); 
 define('AT_SENDER_ID', 'MJmoney'); 
 
+
 // Database Configuration
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
